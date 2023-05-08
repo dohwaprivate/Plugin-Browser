@@ -1,5 +1,5 @@
 {
-   "pluginMasterUrl":"https://raw.githubusercontent.com/dohwacorp/DalamudKRPlugins/main/repo.json",
+   "pluginMasterUrl":"https://raw.githubusercontent.com/dohwacorp/DalamudKRPlugins/main/PluginMaster.json",
    "pluginManagerUrl":"https://raw.githubusercontent.com/dohwacorp/Dalamud/master/Dalamud/Plugin/Internal/PluginManager.cs",
    "adoptable":[
       "ACTEndcounter",
