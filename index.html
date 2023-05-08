@@ -113,14 +113,14 @@
                 icon.src = plugin.IconUrl;
             }
             else {
-                icon.src = `https://raw.githubusercontent.com/goatcorp/PluginDistD17/main/${plugin._Dip17Channel}/${plugin.InternalName}/images/icon.png`;
+                icon.src = `https://raw.githubusercontent.com/dohwacorp/PluginDistD17/main/${plugin._Dip17Channel}/${plugin.InternalName}/images/icon.png`;
             }
-            icon.setAttribute("onerror", "this.src='https://github.com/goatcorp/DalamudAssets/blob/master/UIRes/defaultIcon.png?raw=true'");
+            icon.setAttribute("onerror", "this.src='https://github.com/dohwacorp/DalamudAssets/blob/master/UIRes/defaultIcon.png?raw=true'");
             e.prepend(icon);
 
             if (plugin.DalamudApiLevel === currentApi - 1) {
                 const outdated = document.createElement("img");
-                outdated.src = "https://github.com/goatcorp/DalamudAssets/blob/master/UIRes/outdatedInstallableIcon.png?raw=true";
+                outdated.src = "https://github.com/dohwacorp/DalamudAssets/blob/master/UIRes/outdatedInstallableIcon.png?raw=true";
                 outdated.classList.add("outdated");
                 e.prepend(outdated);
             }
